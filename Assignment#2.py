@@ -1,45 +1,39 @@
-#!/usr/bin/env python
-# coding: utf-8
+#!/usr/bin/python
 
-# In[4]:
-
-
-# Problem 1:
-# Wrtie a python program to check if the numbers "3.5" is positive or negative or zero.
+"""
+Python Core object Types
+"""
 
 
-# In[5]:
+def tuple():
+    """
+    This is to review tuples and basic operations.
+    """
+    # Assign the first element of the tuple to answer_1
+    t1 = (11, 100, 99, 1000, 999)
 
+    x = t1[0]
 
-num = 3.5
-if num > 0:
-    print("Positive number")
-elif num == 0:
-    print("Zero")
-else:
-    print("Negative number")
+    # Print the second from the last element of the tuple.
+    y = lst[-2]
 
+    
+    #What's the index of 2 in the tuple t2?
+    t2 = (55, 777, 54, 6, 76, 101, 1, 2, 8679, 99, 123, 99, 76)
+    z = t2.index(2)
 
-# In[7]:
+    #How many times does 99 occur in the tuple t2?
+    f =  t2.count(99)
 
+    # What is the sum of all the numbers in the tuple t2?
+    
+    m = sum(t2)
 
-# Problem 2:
-# Wrtie a python program displays the multiplication table of variable nummber (from 1 to 10).
-# Input Number = 11.
+    # What is the maximum value in the tuple t2?
+    n = max(t2)
 
-
-# In[9]:
-
-
-num = 11
-
-# Iterate 10 times from i = 1 to 10
-for i in range(1, 11):
-   print(num, 'x', i, '=', num*i)
-
-
-# In[ ]:
+    return x, y, z, f, m, n
 
 
 
-
+tuple()
