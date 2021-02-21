@@ -5,100 +5,38 @@ Python Core object Types
 """
 
 
-def numbers_and_strings():
+def tuple():
     """
-    This is to review numbers and strings and basic operations.
+    This is to review tuples and basic operations.
     """
-    # Write power of 2030
-    x = 
+    # Assign the first element of the tuple to answer_1
+    t1 = (11, 100, 99, 1000, 999)
 
-    # Assign a string "Python" to a variable y
-    y = 
+    x = t1[0]
 
-    # Repeat variable y 10 times
-    z = 
+    # Print the second from the last element of the tuple.
+    y = lst[-2]
 
-    # What is the length of z?
-    length = 
-
-    # Concatenate variable y with string "is Great"
-    m = 
-
-    # Replace "Great" with "good" in variable m and assign it to a new variable n
-    n = 
-
-    return x, y, z, length, m, n
-
-
-def lists():
-    """
-    This is to review basic operations with lists.
-    """
-    n = "Hoboken is awesome"
-
-    # Split variable n on a delimiter space into a list of substrings
-    p = 
-
-    # Get all the items past the first of the third substring
-    r =
-
-    # Create a 3 x 3 matrix as nested list such that
-    #   first row is [1, 4, 5]
-    #   second row is [6, 10, 11]
-    #   third row is [12, 17, 38]
-    A = 
-
-    # Collect the items in the last column of matrix A using list comprehension
-    c = 
-
-    # Collect only the even items of the diagonal of matrix A using list comprehension
-    d = 
-
-    # We can convert a single character to its underlying integer code (e.g., its ASCII byte value)
-    # by passing it to the built-in ord function. Generate a list of these integers to represent
-    # each character of the string "Hoboken" using list comprehension.
-    o = 
-
-    return p, r, c, d, o
-
-
-def dictionaries():
-    """
-    This is to review basic operations with dictionaries.
-    """
-    # Create a dictionary that maps:
-    #   fruit => "apple"
-    #   quantity => 4
-    #   color => "red"
-    f = 
-    # Get the item in dictionary f that the key "fruit" maps to
-    a = 
-
-    # Increase the quantity of f by 1
     
+    #What's the index of 2 in the tuple t2?
+    t2 = (55, 777, 54, 6, 76, 101, 1, 2, 8679, 99, 123, 99, 76)
+    z = t2.index(2)
 
-    # Create a nested dictionary where:
-    #   name => {first_name => "Grace", last_name => "Hopper"} (a dictionary)
-    #   jobs => ["scientist", "engineer"] (a list)
-    #   age => 85
-    amazing_grace = 
+    #How many times does 99 occur in the tuple t2?
+    f =  t2.count(99)
 
-    # Add "programmer" to the list of jobs Grace has
+    # What is the sum of all the numbers in the tuple t2?
     
-    # Get the third job Grace has that you recently added
-    p =
+    m = sum(t2)
 
-    # Get the sorted keys of amazing_grace in alphabetically ascending order
-    k = 
-    k.sort()
+    # What is the maximum value in the tuple t2?
+    n = max(t2)
 
-    return a, f, p, k
+    return x, y, z, f, m, n
 
 
-numbers_and_strings()
-lists()
-dictionaries()
 
+tuple()
 
 
 
