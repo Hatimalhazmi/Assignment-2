@@ -6,24 +6,24 @@ x, y, z, f, m, n = tuple()
 
 
 def test_1():
-    assert(x == 4120900)
+    assert(x == 11)
 
 
 def test_2():
-    assert(y == "Python")
+    assert(y == 1000)
 
 
 def test_3():
-    assert(len(z) == 10 * len("Python"))
+    assert(z == 777)
 
 
 def test_4():
-    assert(length == 60)
+    assert(length == 99)
 
 
 def test_5():
-    assert(m == "Python is Great")
+    assert(m == 10148)
 
 
 def test_6():
-    assert(n == "Python is good")
+    assert(n == 8679)
