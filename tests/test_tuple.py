@@ -14,11 +14,11 @@ def test_2():
 
 
 def test_3():
-    assert(z == 777)
+    assert(z == 7)
 
 
 def test_4():
-    assert(length == 99)
+    assert(f == 2)
 
 
 def test_5():
