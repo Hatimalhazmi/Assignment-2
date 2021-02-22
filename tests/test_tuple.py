@@ -5,25 +5,25 @@ from mypkg.my_answers import tuple
 x, y, z, f, m, n = tuple()
 
 
-def test_1():
+def test_element1():
     assert(x == 11)
 
 
-def test_2():
+def test_element2():
     assert(y == 1000)
 
 
-def test_3():
+def test_index():
     assert(z == 7)
 
 
-def test_4():
+def test_repeat():
     assert(f == 2)
 
 
-def test_5():
+def test_sum():
     assert(m == 10148)
 
 
-def test_6():
+def test_maximum():
     assert(n == 8679)
